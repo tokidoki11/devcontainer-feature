@@ -1,0 +1,18 @@
+{
+    "name": "Cargo Lambda",
+    "id": "cargo-lambda",
+    "version": "0.0.1-alpha",
+    "description": "A feature to install cargo-lambda",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of cargo lambda to install"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/rust",
+        "ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall",
+        "ghcr.io/devcontainers-extra/features/zig"
+    ]
+}
