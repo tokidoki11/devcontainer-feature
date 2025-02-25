@@ -15,4 +15,10 @@ if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
 fi
 
 umask 002
-cargo binstall cargo-lambda --locked -y > /dev/null
+if [ -z "${VERSION}" ]; then
+	cargo binstall cargo-lambda --locked -y > /dev/null
+else
+    cargo binstall cargo-lambda --locked -y --version $VERSION > /dev/null
+fi
+
+

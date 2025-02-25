@@ -6,7 +6,7 @@
     "options": {
         "version": {
             "type": "string",
-            "default": "latest",
+            "default": "",
             "description": "Version of cargo lambda to install"
         }
     },
