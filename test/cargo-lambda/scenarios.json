@@ -1,6 +1,6 @@
 {
     "versioned": {
-        "image": "ubuntu:latest",
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "cargo-lambda": {
                 "version": "1.6.0"

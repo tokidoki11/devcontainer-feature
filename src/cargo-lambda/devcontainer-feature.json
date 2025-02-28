@@ -6,13 +6,18 @@
     "options": {
         "version": {
             "type": "string",
-            "default": "",
+            "default": "latest",
             "description": "Version of cargo lambda to install"
         }
     },
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/rust:1": {},
+        "ghcr.io/devcontainers-extra/features/zig:1": {},
+        "ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall:0.1.8": {}
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/rust",
-        "ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall",
-        "ghcr.io/devcontainers-extra/features/zig"
+        "ghcr.io/devcontainers-extra/features/zig",
+        "ghcr.io/lee-orr/rusty-dev-containers/cargo-binstall"
     ]
 }
