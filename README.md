@@ -5,15 +5,4 @@
 
 # How to use
 
-Running `hello` inside the built container will print the greeting provided to it via its `greeting` option.
-
-```jsonc
-{
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    "features": {
-        "ghcr.io/devcontainers/tokidoki/cargo-lambda": {
-            "version": ""  // default to blank(latest), specify semver
-        }
-    }
-}
-```
+See cargo-lambda: [./src/cargo-lambda/README.md](Readme)
