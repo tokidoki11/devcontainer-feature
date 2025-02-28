@@ -5,4 +5,4 @@
 
 # How to use
 
-See cargo-lambda: [./src/cargo-lambda/README.md](Readme)
+See cargo-lambda: [Readme](src/cargo-lambda/README.md)
