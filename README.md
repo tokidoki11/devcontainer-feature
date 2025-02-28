@@ -5,4 +5,7 @@
 
 # How to use
 
-See cargo-lambda: [Readme](src/cargo-lambda/README.md)
+cargo-lambda: [Readme](src/cargo-lambda/README.md)
+note:
+  - This will install zig to latest version via (ghcr.io/devcontainers-extra/features/zig:1)
+  - `rust` and `binstall` when not available, will be downloaded  
