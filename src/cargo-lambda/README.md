@@ -7,7 +7,7 @@ A feature to install cargo-lambda
 
 ```json
 "features": {
-    "ghcr.io/tokidoki11/cargo-lambda-devcontainer-feature/cargo-lambda:1": {}
+    "ghcr.io/tokidoki11/devcontainer-feature/cargo-lambda:1": {}
 }
 ```
 
@@ -21,4 +21,4 @@ A feature to install cargo-lambda
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/tokidoki11/cargo-lambda-devcontainer-feature/blob/main/src/cargo-lambda/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/tokidoki11/devcontainer-feature/blob/main/src/cargo-lambda/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
