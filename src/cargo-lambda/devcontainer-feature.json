@@ -8,6 +8,11 @@
             "type": "string",
             "default": "latest",
             "description": "Version of cargo lambda to install"
+        },
+        "binstall-version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of cargo-binstall to install"
         }
     },
     "dependsOn": {

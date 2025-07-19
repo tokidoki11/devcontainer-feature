@@ -9,9 +9,12 @@ fi
 
 dpkg -l | grep build-essential || (apt update && apt install build-essential -y -qq)
 
-
 if ! cargo install --list | grep "cargo-binstall" > /dev/null; then
-    cargo install cargo-binstall
+    if [ -z "${BINSTALL_VERSION}" ] || [ "${BINSTALL_VERSION}" = "latest" ]; then
+        cargo install cargo-binstall
+    else
+        cargo install cargo-binstall --version ${BINSTALL_VERSION}
+    fi
 fi
 
 umask 002
