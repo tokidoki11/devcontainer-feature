@@ -10,7 +10,8 @@ source dev-container-features-test-lib
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
 # check <LABEL> <cmd> [args...]
-check "cargo lambda installed with 1.6.0" bash -c "cargo lambda --version" | grep -oP '\d+\.\d+\.\d+'
+check "cargo lambda installed with 1.6.0" bash -c "cargo lambda --version" | grep -oP '\d+\.\d+\.\d+' | grep 1.6.0
+check "cargo binstall installed with 1.3.0" bash -c "cargo binstall --version" | grep -oP '\d+\.\d+\.\d+' | grep 1.3.0
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
