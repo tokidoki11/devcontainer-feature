@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - cargo-lambda
+          - lambroll
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -33,6 +34,7 @@ jobs:
       matrix:
         features:
           - cargo-lambda
+          - lambroll
     steps:
       - uses: actions/checkout@v4
 
