@@ -1,0 +1,10 @@
+{
+    "versioned": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "lambroll": {
+                "version": "v1.3.1"
+            }
+        }
+    }
+}

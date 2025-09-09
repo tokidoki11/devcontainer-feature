@@ -1,0 +1,13 @@
+{
+  "name": "lambroll",
+  "id": "lambroll",
+  "version": "1.0.0",
+  "description": "Install lambroll AWS Lambda deployment tool",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Version of lambroll to install"
+    }
+  }
+}
