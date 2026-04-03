@@ -4,6 +4,7 @@
 > 
 > - [cargo-lambda](https://www.cargo-lambda.info/)
 > - [lambroll](https://github.com/fujiwara/lambroll)
+> - [ngrok](https://ngrok.com/)
 
 
 # How to use
@@ -14,3 +15,8 @@ note:
   - `rust` and `binstall` when not available, will be downloaded  
 
 Lambroll: [Readme](src/lambroll/README.md)
+
+ngrok: [Readme](src/ngrok/README.md)
+
+- Supports `amd64` (x86_64) and `arm64` (aarch64) architectures
+- Defaults to the latest stable release; a specific version can be pinned via the `version` option
