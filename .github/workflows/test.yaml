@@ -15,6 +15,7 @@ jobs:
         features:
           - cargo-lambda
           - lambroll
+          - ngrok
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -35,6 +36,7 @@ jobs:
         features:
           - cargo-lambda
           - lambroll
+          - ngrok
     steps:
       - uses: actions/checkout@v4
 
