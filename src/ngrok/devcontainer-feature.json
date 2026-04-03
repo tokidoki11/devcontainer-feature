@@ -1,0 +1,13 @@
+{
+  "name": "ngrok",
+  "id": "ngrok",
+  "version": "1.0.0",
+  "description": "Install ngrok - a secure tunnel to localhost. Supports amd64 and arm64 architectures.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Version of ngrok to install (e.g. 'latest', 'stable', or a specific version like '3.5.0')"
+    }
+  }
+}

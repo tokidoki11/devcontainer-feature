@@ -1,0 +1,8 @@
+{
+    "install_latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ngrok": {}
+        }
+    }
+}
